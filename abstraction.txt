@@ -1,0 +1,26 @@
+abstract class Animal
+{
+	public abstract void colour();
+	{
+		public void age()
+		{
+			System.out.println("7 months");
+		}
+	}
+	class Cow extends Animal
+	{
+		public void colour()
+		{
+			System.out.println("colour is white");
+		}
+	}
+	class Demo
+	{
+		public static void main(String[] args)
+		{
+			Cow c=new Cow();
+			c.colour();
+			c.age();
+		}
+	}
+} 
