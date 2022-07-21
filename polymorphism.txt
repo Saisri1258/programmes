@@ -1,0 +1,24 @@
+class Bird
+{
+	public void eat()
+	{
+		System.out.pritln("It eats away from him");
+	}
+	class parrot extends bird
+	{
+			public void eat()
+		{
+			System.out.println("sparrow eats grains");
+		}
+	}
+	class First
+	{
+		public static void main(String[] args)
+		{
+			parrot p=new parrot();
+			p.eat();
+			sparrow s=new sparrow();
+			s.eat();
+		}
+	}
+}
