@@ -1,0 +1,12 @@
+class Student
+{
+	String name="SaiSri";
+	int age =18;
+	public static void main(String[] args)
+	{
+		Student s=new student();
+		s.name();
+		s.age();
+	}
+}
+		
