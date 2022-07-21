@@ -1,0 +1,16 @@
+class Animal
+{
+	String name;
+}
+class Dog extends Animal
+{
+	String eat;
+	public static void main(String[] args)
+	{
+		Dog d=new Dog();
+		d.name();
+		d.display("Tommy");
+		d.eat();
+		d.display("meat");
+	}
+}
