@@ -1,0 +1,30 @@
+class EncapsulationDemo
+{
+	private String EmployeName;
+	private int age;
+	public String getemployename()
+	{
+		return EmployeName;
+	}
+	public int getage()
+	{
+		return age;
+	}
+	public void setemployename(String newEmploye)
+	{
+		EmployeName=new Employe;
+	}
+	public void setage(int newage)
+	{
+		Age=new age;
+	}
+}
+public class Run
+{
+	public static void main(String[] args)
+	{
+		EncapsulationDemo d=new EncapsulationDemo();
+		d.setEmployeName("saisri");
+		d.setAge("25");
+	}
+}
