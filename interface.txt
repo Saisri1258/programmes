@@ -1,0 +1,19 @@
+interface Subject
+{
+	void getName(String name);
+}
+class Java implements Subject
+{
+	public void getName(String name)
+	{
+		System.out.println("easy to learn :"+name);
+	}
+}
+class main
+{
+	public static void main(String[] args)
+	{
+		Java j=new Java();
+		j.getName("Object-oriented");
+	}
+}
