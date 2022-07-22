@@ -1,0 +1,9 @@
+class Student
+{
+	Static int radius;
+	public static void main(String[] args)
+	{
+		radius=3;
+		System.out.println("radius:"+r*r);
+	}
+}
