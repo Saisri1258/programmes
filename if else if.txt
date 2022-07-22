@@ -1,0 +1,19 @@
+class Main
+{
+	public static void main(String[] args)
+	{
+		int s=18;
+		if(s>20 )
+		{
+			System.out.println("Hi");
+		}
+		else if(s<20)
+		{
+			System.out.println("Bye");
+		}
+		else
+		{
+			System.out.println("See you");
+		}
+	}
+}
