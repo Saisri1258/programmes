@@ -1,0 +1,9 @@
+class Main
+{
+	public static void main(String[] args)
+	{
+		int num=67;
+		 double myDouble=new Double(num);
+		System.out.println("double is"+myDouble);
+	}
+}
