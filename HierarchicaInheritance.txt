@@ -1,0 +1,30 @@
+class Bird
+{  
+	void fly()
+	{
+		System.out.println("it flies on the top roof");
+	}  
+}  
+class Sparrow extends Bird
+{  
+	void eat()
+	{
+		System.out.println("It eats only grains");
+	}  
+}  
+class Pigeon extends Bird
+{  
+	void cry()
+	{	
+		System.out.println("The babies cries at night");
+	}  
+}  
+class MultipleInheritance
+{  
+	public static void main(String args[])
+	{  
+		Pigeon p=new Pigeon();  
+		p.eat();  
+		p.cry();  
+ 	}
+}  
