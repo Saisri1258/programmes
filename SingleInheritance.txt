@@ -1,0 +1,23 @@
+class Bird
+{  
+	void fly()
+	{
+		System.out.println("It flies in the top of roof");}  
+	}  
+	class Sparrow extends Bird
+	{  
+		void eat()
+		{
+			System.out.println("It eats only grains");
+		}  
+	}  
+	class SingleInheritance
+	{  
+		public static void main(String args[])	
+		{  
+			Bird b=new Bird();  
+			b.fly();  
+			b.eat();  
+		}
+	}
+}  
